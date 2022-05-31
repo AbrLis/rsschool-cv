@@ -1,5 +1,8 @@
 # Andrey Domozhirov
 
+[
+Curriculum Vitae](https://abrlis.github.io/rsschool-cv/cv "cv file")
+
 ![My favorite avatar](https://cdn.rs.school/abrlis.png?size=192)
 
 ---
@@ -53,6 +56,7 @@ def sorted_intersect(first, second):
     tmp = sorted(list(set(first_list) & set(second_list)))
     return build_list(tmp)
 ```
+
 ---
 
 ### Courses

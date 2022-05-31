@@ -15,6 +15,7 @@ Discord: Lisinla#2894 (rsSchool nick is Lisinka(@abrlis))
 ### A Little About Me
 
 I've been interested in programming since an early age, but I've never taken any courses or thematic training. This is my first experience in this field.
+I love to learn new things.
 
 ---
 

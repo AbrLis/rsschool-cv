@@ -1,8 +1,5 @@
 # Andrey Domozhirov
 
-[
-Curriculum Vitae](https://abrlis.github.io/rsschool-cv/cv "cv file")
-
 ![My favorite avatar](https://cdn.rs.school/abrlis.png?size=192)
 
 ---

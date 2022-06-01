@@ -1,4 +1,4 @@
 # First test task
 
-[
-Curriculum Vitae](https://abrlis.github.io/rsschool-cv/cv "cv file")
+[Curriculum Vitae](https://abrlis.github.io/rsschool-cv/cv "cv file")
+[CV](https://abrlis.github.io/rsschool-cv/)

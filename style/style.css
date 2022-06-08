@@ -1,0 +1,22 @@
+.cv {
+    max-width: 1024px;
+    min-width: 740px;
+    border: #000 1px solid;
+    display: flex;
+}
+
+.about {
+    width: 35%;
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.underline {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.pre-warp {
+    white-space: pre-wrap;
+}

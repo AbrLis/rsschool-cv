@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
     <title>CV</title>
 </head>
@@ -14,7 +17,9 @@
         <!-- left side page-->
         <section class="about">
             <header class="header-about">
-                <img src="img/abrlis.png" alt="me" width="200" height="200">
+                <p class="alig-center">
+                    <img src="img/abrlis.png" alt="me" width="200" height="200">
+                </p>
                 <h3>Beginning to learn web layout</h3>
                 <p>I’ve been interested in programming since an early age, but I’ve never taken any courses or thematic
                     training. This is
@@ -24,10 +29,10 @@
                 <h3 class="contact-me">Contact me</h3>
                 <div class="underline"></div>
                 <ul>
-                    <li class="pre-warp">Discord: Lisinka#2894</li>
+                    <li class="pre-warp">Discord:      Lisinka#2894</li>
+                    <li class="pre-warp">Telegram:  @Lisinka</li>
+                    <li class="pre-warp">Github:       <a href="https://github.com/AbrLis">Profile</a></li>
                     <li class="pre-warp">Email: <a href="mailto:abrwet@gmail.com">abrwet@gmail.com</a></li>
-                    <li class="pre-warp">Telegram: @Lisinka</li>
-                    <li class="pre-warp">Github: <a href="https://github.com/AbrLis">Profile</a></li>
                 </ul>
             </article>
             <article class="skills">
@@ -52,14 +57,15 @@
         <section class="right-side">
             <h1>Andrey Domozhirov</h1>
             <div class="underline"></div>
-            <article class="education">
+            <article class="education right-info">
                 <h3>Education</h3>
                 <div class="underline"></div>
                 <div class="description">
+                    <p>The only general education I have is technical school.</p>
                     <p>I am currently enrolled in the rs-school Js/FE Pre-School course 2022Q2</p>
                 </div>
             </article>
-            <article class="educational-projects">
+            <article class="educational-projects right-info">
                 <h3>Educational projects</h3>
                 <div class="underline"></div>
                 <div class="description">
@@ -67,44 +73,44 @@
                     <p><a href="https://github.com/AbrLis/rsschool-cv">It can be found at this link.</a></p>
                 </div>
             </article>
-            <article class="example-code">
+            <article class="example-code right-info">
                 <h3>Example code</h3>
                 <div class="underline"></div>
                 <pre class="code">
                     <code>
-    class Node(object):
-        def __init__(self, data=None):
-            self.data = data
-            self.next = None
+class Node(object):
+    def __init__(self, data=None):
+        self.data = data
+        self.next = None
 
-
-    def sorted_intersect(first, second):
-        first_list = []
-        second_list = []
-        while first or second:
-            if first:
-                first_list.append(first.data)
-                first = first.next
-            if second:
-                second_list.append(second.data)
-                second = second.next
-        tmp = sorted(list(set(first_list) & set(second_list)))
-        return build_list(tmp)
+def sorted_intersect(first, second):
+    first_list = []
+    second_list = []
+    while first or second:
+        if first:
+            first_list.append(first.data)
+            first = first.next
+        if second:
+            second_list.append(second.data)
+            second = second.next
+    tmp = sorted(list(set(first_list) & set(second_list)))
+    return build_list(tmp)
                     </code>
                 </pre>
             </article>
+            <!-- Footer -->
             <footer class="footer">
                 <nav class="nav">
                     <div class="footer-nav">
-                        <a href="https://github.com/AbrLis"><img src="./img/GitHub.png" alt="rss-scool-logo" height="80" width="150"></a>
+                        <a href="https://github.com/AbrLis"><img src="./img/GitHub.png" alt="github-logo" height="80"
+                                width="150"></a>
                     </div>
                     <div class="footer-nav">
-                        <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="rss-scool-logo" height="80" width="150"></a>
-                    </div>
-                    <div class="footer-nav">
-                        06.2022
+                        <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="rss-scool-logo"
+                                height="80" width="150"></a>
                     </div>
                 </nav>
+                <p class="footer-date">06.2022</p>
             </footer>
         </section>
     </main>

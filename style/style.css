@@ -1,23 +1,49 @@
+body {
+    padding-top: 10px;
+    background-color: #e6e2d4;
+}
+
 .cv {
     max-width: 830px;
     min-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
     border: #000 1px solid;
     display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 .about {
-    width: 35%;
-    background-color: #f2f2f2;
+    width: 40%;
+    background-color: #9e9797;
+    padding: 15px;
+}
+
+.alig-center {
+    text-align: center;
+}
+
+.right-side {
     padding: 25px;
+    background-color: antiquewhite;
+}
+
+.right-info {
+    padding: 10px 20px;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
 }
 
+.footer-date {
+    font-size: 12px;
+    text-align: right;
+}
 .footer {
     height: 84px;
 }

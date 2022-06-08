@@ -11,6 +11,7 @@
 
 <body>
     <main class="cv">
+        <!-- left side page-->
         <section class="about">
             <header class="header-about">
                 <img src="img/abrlis.png" alt="me" width="200" height="200">
@@ -45,9 +46,66 @@
                     <div class="underline"></div>
                     <p>This is my first course. I mostly do self-education.</p>
                 </div>
-                <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="rss-scool-logo" height="80"
-                        width="150"></a>
             </article>
+        </section>
+        <!-- right side page-->
+        <section class="right-side">
+            <h1>Andrey Domozhirov</h1>
+            <div class="underline"></div>
+            <article class="education">
+                <h3>Education</h3>
+                <div class="underline"></div>
+                <div class="description">
+                    <p>I am currently enrolled in the rs-school Js/FE Pre-School course 2022Q2</p>
+                </div>
+            </article>
+            <article class="educational-projects">
+                <h3>Educational projects</h3>
+                <div class="underline"></div>
+                <div class="description">
+                    <p>At the moment there is only one training project and it is in progress.</p>
+                    <p><a href="https://github.com/AbrLis/rsschool-cv">It can be found at this link.</a></p>
+                </div>
+            </article>
+            <article class="example-code">
+                <h3>Example code</h3>
+                <div class="underline"></div>
+                <pre class="code">
+                    <code>
+    class Node(object):
+        def __init__(self, data=None):
+            self.data = data
+            self.next = None
+
+
+    def sorted_intersect(first, second):
+        first_list = []
+        second_list = []
+        while first or second:
+            if first:
+                first_list.append(first.data)
+                first = first.next
+            if second:
+                second_list.append(second.data)
+                second = second.next
+        tmp = sorted(list(set(first_list) & set(second_list)))
+        return build_list(tmp)
+                    </code>
+                </pre>
+            </article>
+            <footer class="footer">
+                <nav class="nav">
+                    <div class="footer-nav">
+                        <a href="https://github.com/AbrLis"><img src="./img/GitHub.png" alt="rss-scool-logo" height="80" width="150"></a>
+                    </div>
+                    <div class="footer-nav">
+                        <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="rss-scool-logo" height="80" width="150"></a>
+                    </div>
+                    <div class="footer-nav">
+                        06.2022
+                    </div>
+                </nav>
+            </footer>
         </section>
     </main>
 </body>

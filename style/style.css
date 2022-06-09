@@ -34,10 +34,22 @@ body {
 }
 
 .nav {
+    position: relative;
+    top: -10px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     background-color: #f6f6f6;
+}
+
+.navigation {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-inline-start: 0px;
+}
+
+.navigation-li {
+    display: inline;
 }
 
 .footer-date {

@@ -4,20 +4,24 @@ body {
 }
 
 .cv {
-    max-width: 830px;
-    min-width: 740px;
+    max-width: 1024px;
+    min-width: 905px;
     margin-left: auto;
     margin-right: auto;
     border: #000 1px solid;
     display: flex;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .about {
     width: 40%;
-    background-color: #9e9797;
     padding: 15px;
+    background-color: #9e9797;
+}
+
+.about-me-text {
+    text-align: center;
 }
 
 .alig-center {
@@ -42,20 +46,24 @@ body {
 }
 
 .navigation {
-    list-style-type: none;
     margin-left: 0px;
     padding-left: 0px;
     padding-inline-start: 0px;
+    list-style-type: none;
 }
 
 .navigation-li {
+    padding-left: 4px;
+    padding-right: 4px;
     display: inline;
 }
 
-.footer-date {
-    font-size: 12px;
-    text-align: right;
+.nav-date {
+    position: relative;
+    top: -32px;
+    font-size: large;
 }
+
 .footer {
     height: 84px;
 }

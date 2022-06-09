@@ -8,7 +8,7 @@
 
 E-mail: abrwet@gmail.com
 Telegram: @Lisinka
-Discord: Lisinla#2894 (rsSchool nick is Lisinka(@abrlis))
+Discord: Lisinka#2894 (rsSchool nick is Lisinka(@abrlis))
 
 ---
 
